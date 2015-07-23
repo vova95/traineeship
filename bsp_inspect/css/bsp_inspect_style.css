@@ -1,0 +1,67 @@
+.bsp_inspect_container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: none;
+    background: #222;
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    z-index: 200000;
+    color: #FFFFFF;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+.bsp_inspect_label {
+    font-size: 2em;
+}
+.bsp_inspect_all_results {
+    display: none;
+    float: right;
+    padding: 5px;
+    border: solid;
+    color: #fff;
+}
+.bsp_inspect_all_results:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.bsp_inspect_close {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+}
+.bsp_inspect_close:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bsp_inspect_search {
+    background-color: transparent;
+    background-image: url(wp-content/plugins/bsp_inspect/img/search-icon.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 24px;
+    float:right;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 37px;
+    margin: 3px 0;
+    padding: 0 0 0 34px;
+    position: relative;
+}
+.bsp_inspect_search_field {
+    font-size: 50px;
+    line-height: 45px;
+    background: transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: auto;
+    padding: 0;
+}
+.bsp_inspect_search_field:focus {
+    border: none;
+}
