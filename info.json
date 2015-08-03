@@ -1,7 +1,7 @@
 {
   "name" : "bsp_inspect1",
   "slug" : "bsp_inspect1",
-  "download_url" : "http://localhost/wpsearch/wp-content/plugins/updates/bsp_inspect.zip",
+  "download_url" : "https://github.com/vova95/traineeship/raw/master/bsp_inspect.zip",
   "version" : "1.3",
   "author" : "Vladymyr Zubenko",
   "sections" : {
